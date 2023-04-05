@@ -6,7 +6,13 @@ body {
   text-align: center;
 }
 
-.header {
+#header-message {
+  position: relative;
+  background-color: whitesmoke;
+  border: outset;
+  border-radius: 10px;
+  width: 30%;
+  left: 35%;
   padding: 10px;
 }
 
@@ -14,7 +20,7 @@ h2 {
   margin-right: 0px;
 }
 
-.buttons-container {
+#buttons-container {
   position: relative;
   width: 400px;
   height: 400px;
@@ -29,6 +35,7 @@ h2 {
   height: 150px;
   background-color: red;
   opacity: 0.5;
+  border: 5px solid firebrick;
 }
 
 .blue {
@@ -39,6 +46,7 @@ h2 {
   height: 150px;
   background-color: blue;
   opacity: 0.5;
+  border: 5px solid darkblue;
 }
 
 .yellow {
@@ -49,6 +57,7 @@ h2 {
   height: 150px;
   background-color: yellow;
   opacity: 0.5;
+  border: 5px solid gold;
 }
 
 .green {
@@ -59,16 +68,38 @@ h2 {
   height: 150px;
   background-color: green;
   opacity: 0.5;
+  border: 5px solid #245841;
+}
+
+.hidden {
+  display: none;
+}
+
+.turn-state {
+  position: relative;
+  background-color: whitesmoke;
+  border: outset;
+  border-radius: 5px;
+  width: 25%;
+  font-size: 25px;
+  left: 37.5%;
+}
+
+#start-message {
+  position: relative;
+  background-color: whitesmoke;
+  border: outset;
+  border-radius: 10px;
+  width: 25%;
+  left: 37.5%;
 }
 
 #start-button {
   position: relative;
   padding: 5px;
-  width: 70px;
+  width: 90px;
   height: 35px;
   bottom: 75px;
-}
-
-.hidden {
-  display: none;
+  align-items: center;
+  border-style: outset;
 }
