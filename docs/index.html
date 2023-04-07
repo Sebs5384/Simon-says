@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>simon-says-class-10-r/argentina-programa</title>
     <link rel="stylesheet" href="simon-says.css" />
   </head>
-  <header><h1 id="header-message">SIMON SAYS</h1></header>
   <body>
-    <strong><h2 id="start-message">Press start to play</h2></strong>
+    <h1>SIMON SAYS</h1>
+    <br /><br />
+    <h2 id="start-message">Press start to play</h2>
+    <br />
     <div id="buttons-container">
-      <button class="red" disabled></button>
-      <button class="blue" disabled></button>
-      <button class="yellow" disabled></button>
-      <button class="green" disabled></button>
+      <div id="buttons">
+        <button class="red" disabled></button>
+        <button class="blue" disabled></button>
+        <button class="yellow" disabled></button>
+        <button class="green" disabled></button>
+      </div>
     </div>
     <div id="game-controls">
-      <button id="start-button" class="">START</button>
-      <strong><h1 class="hidden"></h1></strong>
+      <br /><br /><br />
+      <button id="start-button" class="">START</button><br /><br />
+      <h2 class="hidden"></h2>
     </div>
     <div class="hidden">
       <audio id="audio-red-button"><source src="game-audio/red-push.wav" type="audio/wav" /></audio>
