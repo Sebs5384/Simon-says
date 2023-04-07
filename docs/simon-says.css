@@ -2,104 +2,67 @@ html {
   background-color: whitesmoke;
 }
 
-body {
-  text-align: center;
-}
-
-#header-message {
-  position: relative;
+h1 {
   background-color: whitesmoke;
-  border: outset;
+  display: flex;
+  justify-content: center;
+  border-style: outset;
+  width: 450px;
   border-radius: 10px;
-  width: 30%;
-  left: 35%;
-  padding: 10px;
+  margin: 0 auto;
 }
 
 h2 {
-  margin-right: 0px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-style: outset;
+  width: 400px;
+  border-radius: 10px;
+  margin: 0 auto;
 }
 
 #buttons-container {
-  position: relative;
-  width: 400px;
+  display: flex;
+  align-items: center;
+  width: 405px;
   height: 400px;
-  margin: auto;
+  margin: 0 auto;
+}
+
+#buttons button {
+  width: 200px;
+  height: 150px;
+  opacity: 0.4;
+  transition: opacity 500ms;
+}
+
+#game-controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  margin: 0 auto;
 }
 
 .red {
-  position: absolute;
-  top: 0;
-  right: 50%;
-  width: 190px;
-  height: 150px;
   background-color: red;
-  opacity: 0.5;
-  border: 5px solid firebrick;
 }
 
 .blue {
-  position: relative;
-  top: 0;
-  left: 25%;
-  width: 190px;
-  height: 150px;
   background-color: blue;
-  opacity: 0.5;
-  border: 5px solid darkblue;
 }
 
 .yellow {
-  position: absolute;
-  bottom: 95px;
-  right: 50%;
-  width: 190px;
-  height: 150px;
   background-color: yellow;
-  opacity: 0.5;
-  border: 5px solid gold;
 }
 
 .green {
-  position: absolute;
-  bottom: 95px;
-  left: 51%;
-  width: 190px;
-  height: 150px;
   background-color: green;
-  opacity: 0.5;
-  border: 5px solid #245841;
 }
 
 .hidden {
   display: none;
-}
-
-.turn-state {
-  position: relative;
-  background-color: whitesmoke;
-  border: outset;
-  border-radius: 5px;
-  width: 25%;
-  font-size: 25px;
-  left: 37.5%;
-}
-
-#start-message {
-  position: relative;
-  background-color: whitesmoke;
-  border: outset;
-  border-radius: 10px;
-  width: 25%;
-  left: 37.5%;
-}
-
-#start-button {
-  position: relative;
-  padding: 5px;
-  width: 90px;
-  height: 35px;
-  bottom: 75px;
-  align-items: center;
-  border-style: outset;
 }
