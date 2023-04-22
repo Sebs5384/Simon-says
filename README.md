@@ -15,9 +15,12 @@ If the player successfully repeats the sequence, the computer will add another c
 
 # Technologies used
 
-The game interface was built using HTML and styled using CSS, JavaScript was used to program the game logic, including generating random sequences, playing sounds, and checking player input.
+The game interface was built using HTML and styled using CSS, JavaScript was used to program the game logic, including generating random sequences, playing sounds, and checking player input. 
+In future updates we are going to work into changing the styles by adding bootstrap.
 
 # How to run the game
 
 To run the game, you can simply clone the repository and open the "index.html" file in your browser. 
 Alternatively, you can also play the game online by visiting the following link to gh-pages: https://sebs5384.github.io/Simon-says/.
+
+
