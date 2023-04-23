@@ -97,7 +97,6 @@ function handleClicks(clickedButton) {
 
 function announceWinner() {
   resetGame();
-  document.querySelector(".round-state").style.bottom = "70px";
   document.querySelector("#start-button").innerText = "Play again";
   document.querySelector(".round-state").innerText = "Simon says you are the winner !";
   const $winnerSound = document.querySelector("#winner-sound");
@@ -106,8 +105,7 @@ function announceWinner() {
 
 function gameOver() {
   resetGame();
-  document.querySelector(".round-state").style.bottom = "70px";
-  document.querySelector("#start-button").innerText = "Play again";
+  document.querySelector("#start-button").innerText = "PLAY AGAIN";
   document.querySelector(".round-state").innerText = "Simon says game over !";
   const $gameOverSound = document.querySelector("#game-over-sound");
   $gameOverSound.play();
@@ -146,11 +144,11 @@ function displayStartButton() {
 }
 
 function displayRounds(number) {
-  document.querySelector("#start-message").innerText = `Round: ${number} / 10`;
+  document.querySelector("#game-information").innerText = `Round: ${number} / 10`;
 }
 
 function displayScore(score) {
-  document.querySelector("h2").innerText = `Your score is ${score} / 10`;
+  document.querySelector("#game-information").innerText = `Your score is ${score} / 10`;
 }
 
 function resetScore() {
@@ -162,6 +160,6 @@ function displayUserTurn() {
 }
 
 function displayCpuTurn() {
-  document.querySelector("#game-controls h2").className = "round-state";
+  document.querySelector("#turn-message h2").className = "round-state";
   document.querySelector(".round-state").innerText = "It is the computer turn !";
 }
